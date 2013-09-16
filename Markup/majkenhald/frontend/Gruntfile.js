@@ -20,8 +20,7 @@ module.exports = function(grunt) {
       development: {
         options: {
           bundleExec: true,
-          sassDir: 'css/src',
-          cssDir: 'css/dist'
+          config: 'config.rb'
         }
       }
     },
