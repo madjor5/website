@@ -1,9 +1,13 @@
+@import "compass/css3/images";
 /* This is the place for variables */
 
+/* inuit vars */
+$use-grids:         true;
 
 /* color */
-$background-main:               red;
-$background-highlighted:        blue;
+$background-main:               #ebeae4;
+$background-highlighted:        #919191;
 
 /* Includes */
+@import "inuit";
 @import "main-layout";

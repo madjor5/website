@@ -1,3 +1,9 @@
 body {
 	background: $background-main;
+  @include background-image(linear-gradient($background-main 0, $background-main 99px, $background-highlighted 100px, lighten($background-highlighted, 10%) 200px, $background-highlighted 299px, $background-main 300px));
+}
+
+.container {
+	max-width: 860px;
+  margin: 0 auto;
 }
