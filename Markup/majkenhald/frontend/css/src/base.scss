@@ -5,9 +5,15 @@
 $use-grids:         true;
 
 /* color */
-$background-main:               #ebeae4;
-$background-highlighted:        #919191;
+$white:                         #FFFFFF;
+$dark-gray:                     #757678;
+$light-gray:                    #CBCCCA;
+$red:                           #D64844;
+$green:                         #0D7574;
+
+$background:    $white;
 
 /* Includes */
 @import "inuit";
 @import "main-layout";
+@import "header";

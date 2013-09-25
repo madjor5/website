@@ -2547,13 +2547,11 @@ label,
     width: 1px !important; } }
 /* endif */
 body {
-  background: #ebeae4;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 300, color-stop(0%, #ebeae4), color-stop(33%, #ebeae4), color-stop(33.33333%, #919191), color-stop(66.66667%, #ababab), color-stop(99.66667%, #919191), color-stop(100%, #ebeae4));
-  background-image: -webkit-linear-gradient(#ebeae4 0%, #ebeae4 99px, #919191 100px, #ababab 200px, #919191 299px, #ebeae4 300px);
-  background-image: -moz-linear-gradient(#ebeae4 0%, #ebeae4 99px, #919191 100px, #ababab 200px, #919191 299px, #ebeae4 300px);
-  background-image: -o-linear-gradient(#ebeae4 0%, #ebeae4 99px, #919191 100px, #ababab 200px, #919191 299px, #ebeae4 300px);
-  background-image: linear-gradient(#ebeae4 0%, #ebeae4 99px, #919191 100px, #ababab 200px, #919191 299px, #ebeae4 300px); }
+  background: white; }
 
 .container {
   max-width: 860px;
   margin: 0 auto; }
+
+.header--logo img {
+  width: 100%; }
