@@ -1,3 +1,9 @@
+header.header {
+  margin-top: $base-spacing-unit;
+  h1 {
+    font-size: $h3-size;
+  }
+}
 .header--logo {
 	img {
 		width: 100%;

@@ -13,7 +13,14 @@ $green:                         #0D7574;
 
 $background:    $white;
 
+/* Headers */
+h1, h2, h3, h4 {
+  font-family: "existencelight";
+  font-weight: normal;
+}
+
 /* Includes */
 @import "inuit";
 @import "main-layout";
 @import "header";
+@import "fonts";
